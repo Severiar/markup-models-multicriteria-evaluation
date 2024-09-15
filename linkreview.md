@@ -1,5 +1,3 @@
-Вот таблица с обзором литературы по указанным темам:
-
 | Название | Год | Автор | Ссылка | Краткое содержание |
 | --- | --- | --- | --- | --- |
 | BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding | 2018 | Devlin, Jacob, et al. | [link](#) | Описывается модель BERT, которая демонстрирует значительное улучшение в задачах NLP. Основное внимание уделено pre-training и fine-tuning. |
