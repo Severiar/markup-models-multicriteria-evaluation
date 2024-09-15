@@ -1,6 +1,6 @@
 # Обзор статей
 | Название | Ссылка | О чём статья? |
-| -------- | ------ | ----- | ------ |
+| -------- | ------ | ----- |
 | PeerDA: Data Augmentation via Modeling Peer Relation for Span Identification Tasks | [link](https://arxiv.org/pdf/2210.08855.pdf) | Выделяются фрагменты текста, классифицируются и выделяются связи между фрагментами текста |
 | Findings of the Shared Task on Offensive Span Identification from Code-Mixed Tamil-English Comments | [link](https://arxiv.org/pdf/2205.06118.pdf) | Выделяются оскорбительные фрагменты в тексте для соревнования https://competitions.codalab.org/competitions/36395 |
 | 3218IR at SemEval-2020 Task 11: Conv1D and Word Embedding in Propaganda Span Identification at News Articles | [link](https://aclanthology.org/2020.semeval-1.225.pdf) | Выделяются манипулятивные фрагменты с помощью свёрточных сетей для соревнования SemEval-2020 Task 11 |
