@@ -1,16 +1,30 @@
-| Название | Год | Автор | Ссылка | Краткое содержание |
-| --- | --- | --- | --- | --- |
-| BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding | 2018 | Devlin, Jacob, et al. | [link](#) | Описывается модель BERT, которая демонстрирует значительное улучшение в задачах NLP. Основное внимание уделено pre-training и fine-tuning. |
-| Span-based Named Entity Recognition | 2020 | Yu, Alan, et al. | [link](#) | Представлен подход к NER с использованием span-based архитектуры, что увеличивает точность обнаружения сущностей. |
-| Improving Relation Extraction with Pre-trained Transformers | 2020 | Baldini Soares, Livio, et al. | [link](#) | Работа рассматривает использование предобученных трансформеров для извлечения отношений между сущностями. |
-| Fine-tuning BERT for Named Entity Recognition | 2019 | Devlin, Jacob, et al. | [link](#) | Статья рассматривает дообучение BERT для NER и демонстрирует его эффективность по сравнению с другими методами. |
-| Neural Architectures for Named Entity Recognition | 2017 | Peters, Matthew, et al. | [link](#) | Описание различных нейросетевых архитектур для NER, включая RNN и CNN, с акцентом на модель ELMo. |
-| Machine Reading Comprehension: A Literature Review | 2020 | Liu, Ying, et al. | [link](#) | Обзор моделей и методов для MRC, включая трансформеры и span-based модели. |
-| RNNs and Attention for Named Entity Recognition | 2016 | Lample, Guillaume, et al. | [link](#) | Использование RNN и механизмов внимания для NER. Введение CRF для улучшения предсказаний. |
-| A High-Quality Multilingual Dataset for NER | 2020 | Rahimi, Afshin, et al. | [link](#) | Представлен многоязычный датасет для NER с оценкой производительности различных моделей на нескольких языках. |
-| Learning to Recognize Entity Links in Text | 2021 | Shen, Wei, et al. | [link](#) | Описывается модель для распознавания сущностей и их связей в тексте с использованием трансформеров. |
-| Measuring and Improving the Use of Context in Relation Extraction | 2021 | Joshi, Mandar, et al. | [link](#) | Изучается влияние контекста на извлечение отношений, предложены методы улучшения качества моделей с использованием метрик Precision и Recall. |
-| RoBERTa: A Robustly Optimized BERT Pretraining Approach | 2019 | Liu, Yinhan, et al. | [link](https://arxiv.org/abs/1907.11692) | Описывается улучшение BERT, известное как RoBERTa, с оптимизированным подходом к pre-training и улучшением производительности на NLP задачах. |
-| Albert: A Lite BERT for Self-Supervised Learning of Language Representations | 2020 | Lan, Zhenzhong, et al. | [link](https://arxiv.org/abs/1909.11942) | Представлен Albert, компактная версия BERT, которая достигает аналогичных результатов с меньшими вычислительными затратами. |
-| The Stanford Question Answering Dataset (SQuAD) | 2016 | Rajpurkar, Pradeep, et al. | [link](https://arxiv.org/abs/1606.05250) | Описание SQuAD, популярного набора данных для задач машинного понимания текста и ответов на вопросы. |
-| BERT Rediscovers the Classical NLP Pipeline | 2019 | Tenney, Ian, et al. | [link](https://arxiv.org/abs/1905.05950) | Исследуется, как BERT использует компоненты традиционного NLP, такие как POS tagging и parsing, в контексте предобученных трансформеров. |
+# Обзор статей
+| Название | Ссылка | О чём статья? |
+| -------- | ------ | ----- | ------ | ------ |
+| PeerDA: Data Augmentation via Modeling Peer Relation for Span Identification Tasks | [link](https://arxiv.org/pdf/2210.08855.pdf) | Выделяются фрагменты текста, классифицируются и выделяются связи между фрагментами текста |
+| Findings of the Shared Task on Offensive Span Identification from Code-Mixed Tamil-English Comments | [link](https://arxiv.org/pdf/2205.06118.pdf) | Выделяются оскорбительные фрагменты в тексте для соревнования https://competitions.codalab.org/competitions/36395 |
+| 3218IR at SemEval-2020 Task 11: Conv1D and Word Embedding in Propaganda Span Identification at News Articles | [link](https://aclanthology.org/2020.semeval-1.225.pdf) | Выделяются манипулятивные фрагменты с помощью свёрточных сетей для соревнования SemEval-2020 Task 11 |
+| Dissecting Span Identification Tasks with Performance Prediction | [link](https://arxiv.org/pdf/2010.02587.pdf) | Рассматривается задача span id, оценка качества моделей | BERT Feat LSTM CRF |
+| Automatic identification of cited text spans: a multiclassifier approach over imbalanced dataset | [link](https://www.researchgate.net/profile/Chengzhi-Zhang-2/publication/324817301_Automatic_identification_of_cited_text_spans_a_multi-classifier_approach_over_imbalanced_dataset/links/5ae8198a45851588dd7f991d/Automatic-identification-of-cited-text-spans-a-multi-classifier-approach-over-imbalanced-dataset.pdf) | Решают задачу span id для суммаризации статей |
+| Poli2Sum@CL-SciSumm-19: Identify, Classify, and Summarize Cited Text Spans by means of Ensembles of Supervised Models | [link](https://www.researchgate.net/profile/Moreno-La-Quatra/publication/335079246_Poli2SumCL-SciSumm-19_Identify_Classify_and_Summarize_Cited_Text_Spans_by_means_of_Ensembles_of_Supervised_Models/links/5d4d872d92851cd046afc453/Poli2SumCL-SciSumm-19-Identify-Classify-and-Summarize-Cited-Text-Spans-by-means-of-Ensembles-of-Supervised-Models.pdf) | Выделяются фрагменты цитируемого текста |
+| DOSA: Dravidian Code-Mixed Offensive Span Identification Dataset | [link](https://aclanthology.org/2021.dravidianlangtech-1.2.pdf) | Предлагается датасет для выделения оскорбительных фрагментов текста | multilingual BERT, DistilBert, XML-RoBERTa | span id dataset |
+| A Cross-Task Analysis of Text Span Representations | [link](https://arxiv.org/pdf/2006.03866.pdf) | Рассматривают различные постановки задач для span id |
+| SpanBERT: Improving Pre-training by Representing and Predicting Spans | [link](https://arxiv.org/pdf/1907.10529.pdf) | Предлагается модель на основе BERT для выделения фрагментов | 
+| WLV-RIT at SemEval-2021 Task 5: A Neural Transformer Framework for Detecting Toxic Spans | [link](https://arxiv.org/pdf/2104.04630.pdf) | Решается задача выделения оскорбительных фрагментов для соревнования SemEval-2021 Task 5 | 
+| Improving the Efficiency of Grammatical Error Correction with Erroneous Span Detection and Correction | [link](https://arxiv.org/pdf/2010.03260.pdf) | В статье используют выделение фрагментов для исправления ошибок в тексте | 
+| Sent2Span: Span Detection for PICO Extraction in the Biomedical Text without Span Annotations | [link](https://arxiv.org/pdf/2109.02254.pdf) | Решают задачу выделения фрагментов для биомедицинских текстов без разметки |
+| Detect and Classify – Joint Span Detection and Classification for Health Outcomes | [link](https://arxiv.org/pdf/2104.07789.pdf) | Выделяются фрагменты, которые указывают на последствия для здоровья |
+| Data Augmentation with Dual Training for Offensive Span Detection | [link](https://aclanthology.org/2022.naacl-main.185.pdf) | Выделяются фрагменты c помощью GPT |
+| Automatic Detection of Sentence Fragments | [link](https://aclanthology.org/P15-2099.pdf) | Используются синтаксические деревья и части речи, чтобы выделять фрагменты |
+| SemEval-2021 Task 5: Toxic Spans Detection | [link](https://aclanthology.org/2021.semeval-1.6.pdf) | Выделяются оскорбительные фрагменты текста для соревнования SemEval-2021 Task 5 (обзор решений) |
+| SemEval-2020 Task 11: Detection of Propaganda Techniques in News Articles | [link](https://aclanthology.org/2020.semeval-1.186.pdf) | Описание задачи и обзор решений для соревнования SemEval-2020 Task 11 - детекция пропоганды и манипуляций в новостях |
+| ApplicaAI at SemEval-2020 Task 11: On RoBERTa-CRF, Span CLS and Whether Self-Training Helps Them | [link](https://aclanthology.org/2020.semeval-1.187.pdf) | Представляется решение для выделения фрагментов и классфикации типа пропоганды для соревнования SemEval-2020 Task 11 | 
+| A Unified MRC Framework for Named Entity Recognition | [link](https://arxiv.org/pdf/1910.11476.pdf) | Предлагается постановка задачи для решения задачи NER с вложенными фрагментами |
+| Fine-Grained Analysis of Propaganda in News Articles | [link](https://arxiv.org/pdf/1910.02517.pdf) | Детекция манипуляций через выделение фрагментов и их классификации |
+| Simple yet Powerful: An Overlooked Architecture for Nested Named Entity Recognition | [link](https://aclanthology.org/2022.coling-1.184.pdf) | Решается задача NER с вложенными фрагментами |
+| Quantifying Controversy on Social Media | [link](https://arxiv.org/pdf/1507.05224.pdf) | Строится граф разговора по теме и выделяются стороны которые противоречат друг другу |
+| APE: Argument Pair Extraction from Peer Review and Rebuttal via Multi-task Learning | [link](https://aclanthology.org/2020.emnlp-main.569.pdf) | Выделяются пары фрагментов аргументации |
+| We Can Detect Your Bias: Predicting the Political Ideology of News Articles | [link](https://aclanthology.org/2020.emnlp-main.404.pdf) | Представляют датасет для классификации новостей по политическим идеологиям. |
+| SemEval-2007 Task 14: Affective Text | [link](https://aclanthology.org/S07-1013.pdf) | Датасет для классификации эмоций в заголовках новостей |
+| GNNer: Reducing Overlapping in Span-based NER Using Graph Neural Networks | [link](https://aclanthology.org/2022.acl-srw.9.pdf) | Находятся пересекающееся спаны с помощью графовых нейросетей |
+
