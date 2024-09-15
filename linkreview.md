@@ -20,5 +20,3 @@
 | Dense Passage Retrieval for Open-Domain Question Answering | 2020 | Karpukhin, Vladimir, et al. | [link](https://arxiv.org/abs/2004.04906) | Представляется система для поиска ответов на вопросы в open-domain MRC, которая использует плотные представления для улучшения результатов поиска релевантной информации. |
 | Adversarial Training for Machine Reading Comprehension | 2021 | Wang, Yicheng, et al. | [link](https://aclanthology.org/2021.naacl-main.19/) | Описывается использование состязательного обучения для повышения надежности MRC моделей, что позволяет моделям лучше справляться с манипулятивными вопросами и "ловушками". |
 | Knowledge-Enhanced Pre-training for Machine Reading Comprehension | 2020 | Liu, Shancheng, et al. | [link](https://aclanthology.org/2020.findings-emnlp.341/) | Статья демонстрирует улучшение моделей MRC через интеграцию знаний из внешних баз данных в процесс обучения модели. |
-
-Эти статьи помогут лучше понять современные подходы к задачам NER, MRC и извлечению отношений, а также методы оценки этих моделей.
